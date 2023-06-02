@@ -1,100 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Apex Kitchen</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
-        <div class="container">
-            <a href="#" class="navbar-brand">Apex Kitchen</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
+      <div class="container">
+        <a href="#" class="navbar-brand">Apex Kitchen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            </button>
-
-
-
-            <div class="collapse navbar-collapse" id="navmenu">
-
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#Discuss" class="nav-link">What You'll Learn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Blogs" class="nav-link">Recipes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#About" class="nav-link">About</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#Discuss" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Blogs" class="nav-link">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About" class="nav-link">About</a>
+            </li>
+          </ul>
         </div>
-
+      </div>
     </nav>
 
     <!--showcase-->
-    <section class="bg-dark text-light p-5 p-lg-0   text-center text-sm-start">
-        <div class="container">
-            <div class="d-sm-flex align-itms-center justify-content-between">
-                <div>
-                    <h1>Become a <span class="text-warning"> world-class chef</span></h1>
-                    <p class="lead my-4">Unlock a World of Culinary Delights, Learn, Create, and Master Extraordinary
-                        Recipes with Us</p>
-                    <button class="btn btn-primary btn-lg">Join Today</button>
-                </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="img/img1.svg" alt="man bbq" srcset="">
-            </div>
-
+    <!-- p-lg-0 -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-itms-center justify-content-between">
+          <div>
+            <h1>
+              Become a <span class="text-warning"> world-class chef</span>
+            </h1>
+            <p class="lead my-4">
+              Unlock a World of Culinary Delights, Learn, Create, and Master
+              Extraordinary Recipes with Us
+            </p>
+            <button class="btn btn-primary btn-lg">Join Today</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/img1.svg"
+            alt="man bbq"
+            srcset=""
+          />
         </div>
+      </div>
     </section>
 
     <!--Newsletter-->
     <section class="bg-primary text-light p-5">
-        <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
 
-                <div class="input-group news-input">
-                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username"
-                        aria-describedby="button-addon2">
-                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Button</button>
-                </div>
-
-            </div>
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              Button
+            </button>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--Boxes-->
     <section class="p-5">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md">
-                    <div class="card bg-dark text-light"></div>
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-laptop"></i>
                 </div>
-                <div class="col-md">123</div>
-                <div class="col-md">123</div>
+                <h3 class="card-title mb-3">Vitual</h3>
+                <p class="card-text">
+                  Embark on a culinary journey from the comfort of your own
+                  kitchen with our virtual cooking classes.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
             </div>
-
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Hybrid</h3>
+                <p class="card-text">
+                  Start your cooking jorney by immersing yourself in the best of
+                  both worlds with our hybrid program.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">In person</h3>
+                <p class="card-text">
+                  Step into the world of hands-on culinary education with our
+                  immersive in-person learning program.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
+    <!-- fundamentals -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="d-sm-flex align-itms-center justify-content-between">
+          <img
+            class="img-fluid h-50 d-none d-sm-block"
+            src="img/img2.svg"
+            alt="chef"
+            srcset=""
+          />
 
+          <div>
+            <h1>Learn The Basics</h1>
+            <p class="lead my-4">
+              Embark on a culinary journey and lay a solid foundation for your
+              culinary adventures as you delve into learning the basics. Our
+              comprehensive courses provide a step-by-step approach, guiding you
+              through fundamental techniques, essential ingredients, and core
+              cooking principles. From knife skills to flavor profiles, our
+              expert instructors will equip you with the knowledge and
+              confidence to create delicious dishes with ease.
+            </p>
+            <button class="btn btn-primary btn-lg">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--Asked Questions-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
